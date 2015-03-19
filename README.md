@@ -25,6 +25,7 @@ in order to run. To run this program on any operating system, C++ compilers must
 on command line.
 
 All included files should be:
+
 finalastar.cpp
 
 grid1.txt
