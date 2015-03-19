@@ -18,6 +18,8 @@ Adam Lind
 
 Alexander Perepechko
 
+Link to project website: https://sites.google.com/a/student.american.edu/csc568-project1/
+
 Link to GitHub repository: https://github.com/adamlind323/CSC568_Project1
 
 The goal of the project was to create an A* algorithm that would allow Link to navigate from his starting position 
