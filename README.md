@@ -34,6 +34,7 @@ grid4.txt,
 To run on MacOS, open terminal, enter the project directory, and enter these commands:
 
 g++ finalastar.cpp -o astar
+
 ./astar
 
 The program will then prompt the user to enter which map they would like to see A* executed on, with a choice of 
