@@ -25,11 +25,15 @@ in order to run. To run this program on any operating system, C++ compilers must
 on command line.
 
 All included files should be:
-finalastar.cpp,
-grid1.txt,
-grid2.txt,
-grid3.txt,
-grid4.txt,
+finalastar.cpp
+
+grid1.txt
+
+grid2.txt
+
+grid3.txt
+
+grid4.txt
 
 To run on MacOS, open terminal, enter the project directory, and enter these commands:
 
