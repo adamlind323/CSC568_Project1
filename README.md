@@ -25,15 +25,17 @@ in order to run. To run this program on any operating system, C++ compilers must
 on command line.
 
 All included files should be:
-finalastar.cpp
-grid1.txt
-grid2.txt
-grid3.txt
-grid4.txt
+finalastar.cpp,
+grid1.txt,
+grid2.txt,
+grid3.txt,
+grid4.txt,
 
 To run on MacOS, open terminal, enter the project directory, and enter these commands:
+
 g++ finalastar.cpp -o astar
 ./astar
+
 The program will then prompt the user to enter which map they would like to see A* executed on, with a choice of 
 four different maps. Input an interger value between 1-4, and the program with compute the optimal path for the chosen map.
 
@@ -41,15 +43,19 @@ As with all A* algorithms, ours uses a combinaiton of Dijkstra's algorithm along
 order to compute the optimal path from start to goal with the smallest time complexity. The general process for our 
 algorithm can be found in the method pathFinding(), located at line 265 in astar.cpp. We use a prioity queue to keep track 
 of which nodes are the most ideal for traversal with the A* algorithm.
+
 While pathFinding() handles the actual A* algorithm computationally, the components of A* can be found in the node class, 
 located at line 111. Within this class, the method for our heuristic measurements can be found in the estimate() method, 
 where the Euclidean distance between nodes is caluclated. 
+
 Our modified Dijkstra's algorithm costs are located within the nextCost() method, where nodes are given a traversal cost. 
 These two node-to-node measurements are combined in the heuristic() method within the node class in order to give us the 
 traversal cost to be used with the A* algorithm. 
+
 In order to compute which node to move to next, we use the boolean operator method to compare the costs between possible 
 nodes to traverse, returning whether one of the two inputs nodes on the priority queue has a greater value than the other 
 input node.
+
 Our main() method for the program first asks the user to input which map they would like to see A* pathfind on. The program 
 then begins to clock how long the algorithm takes to compute the path, returning a graphical representation of the map and 
 the path on command line, as long as the amount of time taken to compute the path. The program than automatically terminates, 
