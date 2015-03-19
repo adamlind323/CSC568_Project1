@@ -1,12 +1,21 @@
 # CSC568_Project1
+
 American University
+
 College of Arts and Sciences
+
 Department of Computer Science
+
 Spring 2015
+
 Generic A* algorithm to be interfaced with Solarus game engine
+
 Authors:
+
 Kevin Gerstein
+
 Adam Lind
+
 Alexander Perepechko
 
 Link to GitHub repository: https://github.com/adamlind323/CSC568_Project1
@@ -73,6 +82,9 @@ computes the path, a copy of the map is used for computation in the program, and
 in the temporary computational map. To change the start and end positions, 2 and 4 can be changed with any 0 on each map.
 
 For any questions, comments, or concerns, please contact us:
+
 Kevin Gerstein <kg1941a@student.american.edu>
+
 Adam Lind <al3133a@student.american.edu>
+
 Alexander Perepechko <ap1109a@student.american.edu>
